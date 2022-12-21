@@ -1,0 +1,388 @@
+ERROR - 2022-12-20 06:07:56 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-12-20 06:07:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Coding\JC\3\app\Models\KonfigurasiModel.php(20): CodeIgniter\Model->__call('get', Array)
+#4 E:\Coding\JC\3\app\Helpers\global_fungsi_helper.php(84): App\Models\KonfigurasiModel->getData(Array)
+#5 E:\Coding\JC\3\app\Controllers\Home.php(25): konfigurasi_get('set_halaman_dep...')
+#6 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Coding\JC\3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Coding\\JC\\3\\...')
+#11 {main}
+CRITICAL - 2022-12-20 06:07:56 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\Coding\JC\3\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\Coding\\JC\\3\\...', 96, Array)
+#1 E:\Coding\JC\3\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('E:\\Coding\\JC\\3\\...')
+#3 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-12-20 06:08:40 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-12-20 06:08:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Coding\JC\3\app\Models\KonfigurasiModel.php(20): CodeIgniter\Model->__call('get', Array)
+#4 E:\Coding\JC\3\app\Helpers\global_fungsi_helper.php(84): App\Models\KonfigurasiModel->getData(Array)
+#5 E:\Coding\JC\3\app\Controllers\Home.php(25): konfigurasi_get('set_halaman_dep...')
+#6 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Coding\JC\3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Coding\\JC\\3\\...')
+#11 {main}
+CRITICAL - 2022-12-20 06:08:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\Coding\JC\3\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\Coding\\JC\\3\\...', 96, Array)
+#1 E:\Coding\JC\3\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('E:\\Coding\\JC\\3\\...')
+#3 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-12-20 06:08:40 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-12-20 06:08:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Coding\JC\3\app\Models\KonfigurasiModel.php(20): CodeIgniter\Model->__call('get', Array)
+#4 E:\Coding\JC\3\app\Helpers\global_fungsi_helper.php(84): App\Models\KonfigurasiModel->getData(Array)
+#5 E:\Coding\JC\3\app\Controllers\Home.php(25): konfigurasi_get('set_halaman_dep...')
+#6 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Coding\JC\3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Coding\\JC\\3\\...')
+#11 {main}
+CRITICAL - 2022-12-20 06:08:40 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\Coding\JC\3\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\Coding\\JC\\3\\...', 96, Array)
+#1 E:\Coding\JC\3\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('E:\\Coding\\JC\\3\\...')
+#3 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-12-20 06:08:41 --> Error connecting to the database: Unknown database 'ci4'
+CRITICAL - 2022-12-20 06:08:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci4'
+#0 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Coding\JC\3\app\Models\KonfigurasiModel.php(20): CodeIgniter\Model->__call('get', Array)
+#4 E:\Coding\JC\3\app\Helpers\global_fungsi_helper.php(84): App\Models\KonfigurasiModel->getData(Array)
+#5 E:\Coding\JC\3\app\Controllers\Home.php(25): konfigurasi_get('set_halaman_dep...')
+#6 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#7 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\Coding\JC\3\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Coding\JC\3\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Coding\\JC\\3\\...')
+#11 {main}
+CRITICAL - 2022-12-20 06:08:41 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\Coding\JC\3\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\Coding\\JC\\3\\...', 96, Array)
+#1 E:\Coding\JC\3\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Home), true)
+#2 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(234): include('E:\\Coding\\JC\\3\\...')
+#3 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 E:\Coding\JC\3\vendor\codeigniter4\framework\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-20 12:17:16 --> Trying to access array offset on value of type null
+#0 /var/www/app/app/Helpers/global_fungsi_helper.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/app/app/Views/depan/v_template_header.php(37): set_post_link()
+#2 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#3 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/app/app/Controllers/Home.php(39): view()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-20 12:17:18 --> Trying to access array offset on value of type null
+#0 /var/www/app/app/Helpers/global_fungsi_helper.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/app/app/Views/depan/v_template_header.php(37): set_post_link()
+#2 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#3 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/app/app/Controllers/Home.php(39): view()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-20 12:17:19 --> Trying to access array offset on value of type null
+#0 /var/www/app/app/Helpers/global_fungsi_helper.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/app/app/Views/depan/v_template_header.php(37): set_post_link()
+#2 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#3 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/app/app/Controllers/Home.php(39): view()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-20 12:24:33 --> Trying to access array offset on value of type null
+#0 /var/www/app/app/Helpers/global_fungsi_helper.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/app/app/Views/depan/v_template_header.php(37): set_post_link()
+#2 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#3 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/app/app/Controllers/Home.php(39): view()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-20 12:24:34 --> Trying to access array offset on value of type null
+#0 /var/www/app/app/Helpers/global_fungsi_helper.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/app/app/Views/depan/v_template_header.php(37): set_post_link()
+#2 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#3 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/app/app/Controllers/Home.php(39): view()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-20 12:24:35 --> Trying to access array offset on value of type null
+#0 /var/www/app/app/Helpers/global_fungsi_helper.php(111): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/app/app/Views/depan/v_template_header.php(37): set_post_link()
+#2 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#3 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /var/www/app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /var/www/app/app/Controllers/Home.php(39): view()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-20 18:56:38 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/app/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/app/public/index.php(28): require('/var/www/app/ve...')
+#2 {main}
+CRITICAL - 2022-12-20 18:56:40 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/app/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/app/public/index.php(28): require('/var/www/app/ve...')
+#2 {main}
+CRITICAL - 2022-12-20 19:00:25 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/app/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/app/public/index.php(28): require('/var/www/app/ve...')
+#2 {main}
+CRITICAL - 2022-12-20 19:00:50 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /var/www/app/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /var/www/app/public/index.php(28): require('/var/www/app/ve...')
+#2 {main}
+CRITICAL - 2022-12-20 13:05:54 --> Use of undefined constant MYSQLI_STORE_RESULT - assumed 'MYSQLI_STORE_RESULT' (this will throw an Error in a future version of PHP)
+#0 /var/www/app/vendor/codeigniter4/framework/system/Database/Database.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/app/ve...', 136, Array)
+#1 /var/www/app/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#2 /var/www/app/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#3 /var/www/app/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#4 /var/www/app/app/Controllers/Home.php(11): CodeIgniter\Model->__construct()
+#5 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 13:05:55 --> Use of undefined constant MYSQLI_STORE_RESULT - assumed 'MYSQLI_STORE_RESULT' (this will throw an Error in a future version of PHP)
+#0 /var/www/app/vendor/codeigniter4/framework/system/Database/Database.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/app/ve...', 136, Array)
+#1 /var/www/app/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#2 /var/www/app/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#3 /var/www/app/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#4 /var/www/app/app/Controllers/Home.php(11): CodeIgniter\Model->__construct()
+#5 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 13:05:55 --> Use of undefined constant MYSQLI_STORE_RESULT - assumed 'MYSQLI_STORE_RESULT' (this will throw an Error in a future version of PHP)
+#0 /var/www/app/vendor/codeigniter4/framework/system/Database/Database.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/var/www/app/ve...', 136, Array)
+#1 /var/www/app/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#2 /var/www/app/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#3 /var/www/app/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect('default')
+#4 /var/www/app/app/Controllers/Home.php(11): CodeIgniter\Model->__construct()
+#5 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Home->__construct()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 13:06:41 --> Invalid file: App\Views\Pager\depan.php
+#0 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pager...')
+#1 /var/www/app/vendor/codeigniter4/framework/system/Pager/Pager.php(125): CodeIgniter\View\View->render('App\\Views\\Pager...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/Pager/Pager.php(93): CodeIgniter\Pager\Pager->displayLinks('ft', 'depan')
+#3 /var/www/app/app/Views/depan/v_home.php(24): CodeIgniter\Pager\Pager->simpleLinks('ft', 'depan')
+#4 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/app/ap...')
+#5 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('depan/v_home', Array, true)
+#7 /var/www/app/app/Controllers/Home.php(40): view('depan/v_home', Array)
+#8 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#9 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-20 20:10:30 --> Invalid file: App\Views\Pager\datatable.php
+#0 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pager...')
+#1 /var/www/app/vendor/codeigniter4/framework/system/Pager/Pager.php(125): CodeIgniter\View\View->render('App\\Views\\Pager...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/Pager/Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('dt', 'datatable')
+#3 /var/www/app/app/Views/admin/v_article.php(77): CodeIgniter\Pager\Pager->links('dt', 'datatable')
+#4 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/app/ap...')
+#5 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /var/www/app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('admin/v_article', Array, true)
+#7 /var/www/app/app/Controllers/Admin/Article.php(53): view('admin/v_article', Array)
+#8 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\Article->index()
+#9 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#10 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-20 20:16:41 --> Call to undefined function CodeIgniter\Validation\mb_strpos()
+#0 /var/www/app/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\FileRules->is_image(NULL, Array, Array, NULL)
+#1 /var/www/app/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('post_thumbnail', 'post_thumbnail', NULL, Array, Array)
+#2 /var/www/app/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/app/app/Controllers/Admin/Page.php(84): CodeIgniter\Controller->validate(Array)
+#4 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\Page->tambah()
+#5 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Page))
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-12-20 20:17:43 --> Could not move file phpXfOGqc to upload/ ()
+#0 /var/www/app/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpXfOGqc', 'upload/', '')
+#1 /var/www/app/app/Controllers/Admin/Page.php(142): CodeIgniter\HTTP\Files\UploadedFile->move('upload/', '1671589062_61b1...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\Page->tambah()
+#3 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Page))
+#4 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-20 20:24:19 --> The original file is not a valid file.
+#0 /var/www/app/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /var/www/app/app/Controllers/Admin/Article.php(179): CodeIgniter\HTTP\Files\UploadedFile->move('upload/', '1671589459_68a0...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\Article->edit('42')
+#3 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#4 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-20 20:24:53 --> The original file is not a valid file.
+#0 /var/www/app/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /var/www/app/app/Controllers/Admin/Article.php(179): CodeIgniter\HTTP\Files\UploadedFile->move('upload/', '1671589493_7035...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\Article->edit('42')
+#3 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#4 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-20 20:26:19 --> The original file is not a valid file.
+#0 /var/www/app/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /var/www/app/app/Controllers/Admin/Article.php(179): CodeIgniter\HTTP\Files\UploadedFile->move('upload/', '1671589579_c2c9...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\Article->edit('42')
+#3 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#4 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-20 20:26:53 --> The original file is not a valid file.
+#0 /var/www/app/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /var/www/app/app/Controllers/Admin/Article.php(179): CodeIgniter\HTTP\Files\UploadedFile->move('upload/', '1671589613_1017...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\Article->edit('42')
+#3 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#4 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-20 20:44:12 --> Directory /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer not writable, please chmod to 777
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(512, 'Directory /var/...', '/var/www/app/ve...', 297, Array)
+#1 /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer.php(297): trigger_error('Directory /var/...', 512)
+#2 /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer.php(238): HTMLPurifier_DefinitionCache_Serializer->_testPermissions('/var/www/app/ve...', 511)
+#3 /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer.php(125): HTMLPurifier_DefinitionCache_Serializer->_prepareDir(Object(HTMLPurifier_Config))
+#4 /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Decorator.php(108): HTMLPurifier_DefinitionCache_Serializer->cleanup(Object(HTMLPurifier_Config))
+#5 /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Decorator/Cleanup.php(72): HTMLPurifier_DefinitionCache_Decorator->cleanup(Object(HTMLPurifier_Config))
+#6 /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php(505): HTMLPurifier_DefinitionCache_Decorator_Cleanup->get(Object(HTMLPurifier_Config))
+#7 /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI.php(72): HTMLPurifier_Config->getDefinition('URI')
+#8 /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrValidator.php(96): HTMLPurifier_AttrDef_URI->validate(Object(HTMLPurifier_URI), Object(HTMLPurifier_Config), Object(HTMLPurifier_Context))
+#9 /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/ValidateAttributes.php(38): HTMLPurifier_AttrValidator->validateToken(Object(HTMLPurifier_Token_Start), Object(HTMLPurifier_Config), Object(HTMLPurifier_Context))
+#10 /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/Composite.php(24): HTMLPurifier_Strategy_ValidateAttributes->execute(Array, Object(HTMLPurifier_Config), Object(HTMLPurifier_Context))
+#11 /var/www/app/vendor/ezyang/htmlpurifier/library/HTMLPurifier.php(211): HTMLPurifier_Strategy_Composite->execute(Array, Object(HTMLPurifier_Config), Object(HTMLPurifier_Context))
+#12 /var/www/app/app/Helpers/global_fungsi_helper.php(71): HTMLPurifier->purify('<p style="paddi...')
+#13 /var/www/app/app/Models/PostsModel.php(40): purify('<p style="paddi...')
+#14 /var/www/app/app/Controllers/Admin/Article.php(100): App\Models\PostsModel->insertPost(Array, 'article')
+#15 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\Article->tambah()
+#16 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#17 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#18 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#19 {main}
+CRITICAL - 2022-12-20 20:45:38 --> The original file is not a valid file.
+#0 /var/www/app/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /var/www/app/app/Controllers/Admin/Article.php(105): CodeIgniter\HTTP\Files\UploadedFile->move('upload/', '1671590738_6930...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\Article->tambah()
+#3 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#4 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-20 20:56:50 --> Cannot declare class App\Controllers\Contact, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-12-20 21:07:08 --> Undefined property: CodeIgniter\View\View::$uri
+#0 /var/www/app/app/Views/depan/v_about.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/app/ap...', 9, Array)
+#1 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/app/ap...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('depan/v_about', Array, true)
+#4 /var/www/app/app/Controllers/About.php(32): view('depan/v_about', Array)
+#5 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\About->index()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 21:07:38 --> Undefined property: CodeIgniter\View\View::$CI
+#0 /var/www/app/app/Views/depan/v_about.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/app/ap...', 8, Array)
+#1 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/app/ap...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('depan/v_about', Array, true)
+#4 /var/www/app/app/Controllers/About.php(32): view('depan/v_about', Array)
+#5 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\About->index()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 21:08:21 --> Undefined property: CodeIgniter\View\View::$CI
+#0 /var/www/app/app/Views/depan/v_about.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/app/ap...', 8, Array)
+#1 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/app/ap...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/app/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('depan/v_about', Array, true)
+#4 /var/www/app/app/Controllers/About.php(32): view('depan/v_about', Array)
+#5 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\About->index()
+#6 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#7 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-20 21:42:57 --> The original file is not a valid file.
+#0 /var/www/app/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /var/www/app/app/Controllers/Admin/Article.php(105): CodeIgniter\HTTP\Files\UploadedFile->move('upload/', '1671594177_cfa8...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\Article->tambah()
+#3 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#4 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-12-20 21:54:23 --> The original file is not a valid file.
+#0 /var/www/app/vendor/codeigniter4/framework/system/HTTP/Files/UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 /var/www/app/app/Controllers/Admin/Article.php(105): CodeIgniter\HTTP\Files\UploadedFile->move('upload/', '1671594863_a040...')
+#2 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin\Article->tambah()
+#3 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#4 /var/www/app/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/app/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
